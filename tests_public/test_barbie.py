@@ -13,7 +13,7 @@ def run_func_with_inputs(func, inputs, monkeypatch, capsys) -> str:
     return capsys.readouterr().out
 
 
-def test_beach_adventure_example_values(monkeypatch, capsys):
+def test_beach(monkeypatch, capsys):
     # Example:
     # people=4, chairs=30, sunscreen=10, ice cream=5, toys=15
     # total=60.00
@@ -31,7 +31,7 @@ def test_beach_adventure_example_values(monkeypatch, capsys):
     assert "Each person's share: $13.38" in out
 
 
-def test_escape_plan_example_values(monkeypatch, capsys):
+def test_escape(monkeypatch, capsys):
     # Example:
     # Route 1: 100/50 = 2.00
     # Route 2: 120/70 = 1.71
@@ -51,7 +51,7 @@ def test_escape_plan_example_values(monkeypatch, capsys):
     assert "Time saved by choosing the fastest route: 0.62 hours" in out
 
 
-def test_societal_reformation_example_values(monkeypatch, capsys):
+def test_societal(monkeypatch, capsys):
     # Example:
     # proposed=20, successful=13 -> 65.00%
     # need 15 for 75% -> need 2 more
