@@ -53,46 +53,54 @@ Your program must include output lines formatted exactly like these examples.
 
 **Beach Adventure Challenge**
 **Example Inputs:**
+```
 Number of people: 4
 Beach Chairs Cost: $30.00
 Sunscreen Cost: $10.00
 Ice Cream Cost: $5.00
 Beach Toys Cost: $15.00
-
+```
 **Required Output Lines:**
 **Challenge 1 Results:**
+```
 Total cost before discounts: $60.00
 Total cost after discounts: $53.50
 Each person's share: $13.38
+```
 ...................................................
 **Escape Plan Challenge
 Example Inputs:**
+```
 Route 1 Distance: 100 miles
 Route 1 Speed: 50 mph
 Route 2 Distance: 120 miles
 Route 2 Speed: 70 mph
 Route 3 Distance: 140 miles
 Route 3 Speed: 60 mph
-
+```
 **Required Output Lines**
 **Challenge 2 Results:**
+```
 Time required for Route 1: 2.00 hours
 Time required for Route 2: 1.71 hours
 Time required for Route 3: 2.33 hours
 The fastest route takes 1.71 hours.
 Time saved by choosing the fastest route: 0.62 hours
+```
 ....................................................
 **Societal Reformation Challenge**
 **Example Inputs:**
+```
 Total Proposed Changes: 20
 Successful Changes: 13
-
+```
 **Required Output Lines
 Challenge 3 Results:**
+```
 Percentage of successful changes: 65.00%
 Number of additional changes needed to achieve a 75% success rate: 2
 Remaining changes to be implemented: 7
-
+```
 
 ---
 
